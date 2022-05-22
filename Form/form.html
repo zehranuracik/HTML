@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="name">Name: </label></td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="surname">Surname: </label></td>
+          <td><input type="text" id="surname" /></td>
+        </tr>
+        <tr>
+          <td><label for="birthday">Birthday: </label></td>
+          <td><input type="date" id="birthday" /></td>
+        </tr>
+        <tr>
+          <td><label for="mail">Email: </label></td>
+          <td><input type="email" id="mail" /></td>
+        </tr>
+      </table>
+      <br />
+      <div>
+        <p>Choose your gender:</p>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+      </div>
+      <br />
+      <div>
+        <label for="cities">Which City Do You Live In? :</label>
+        <select id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="34">İstanbul</option>
+          <option value="42">Konya</option>
+          <option value="01">Adana</option>
+          <option value="06">Ankara</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <p>Choose a course or courses you want to get in:</p>
+        <input type="checkbox" name="courses" id="Html" />
+        <label for="Html">HTML</label>
+        <input type="checkbox" name="courses" id="Python" />
+        <label for="Python">PYTHON</label>
+        <input type="checkbox" name="courses" id="Asp.Net" />
+        <label for="Asp.Net">ASP.NET</label>
+      </div>
+      <br />
+      <div>
+        <label for="desc">Describe Yourself: </label>
+        <textarea id="desc"></textarea>
+      </div>
+      <br />
+      <div>
+        <table>
+          <tr>
+            <td><label for="user_name">Username: </label></td>
+            <td><input type="text" id="user_name" /></td>
+          </tr>
+          <tr>
+            <td><label for="passw">Password: </label></td>
+            <td><input type="password" id="passw" /></td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <button type="submit">Sign Up</button>
+      <button type="reset">Clean</button>
+    </form>
+  </body>
+</html>
